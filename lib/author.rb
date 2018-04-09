@@ -1,6 +1,8 @@
-class Author
+class Author :name
 
-def initialize
+def initialize(name)
+  @name = name
+  
 end
 
 end
